@@ -895,6 +895,7 @@ img {
   border-radius: 5px;
   border: none;
   outline: none;
+  resize: none;
   padding: 13px 24px;
   background-color: #F7F8FD;
   width: 456px;
