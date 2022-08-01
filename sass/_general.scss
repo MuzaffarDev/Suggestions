@@ -18,11 +18,23 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  // font-family: $main-font;
-  background-color: red;
+  background-color: #f2f2f2;
+  font-family: "Jost", "Tahoma", serif;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.main__container {
+  max-width: 255px;
+  padding: 0;
+  margin: 0 auto;
 }

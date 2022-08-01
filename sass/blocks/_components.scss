@@ -1,0 +1,106 @@
+.btn__text {
+  @include jost(700, 14px, 20px, $darked-grey);
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.btn-1 {
+  width: 158px;
+  padding: 13px 0 11px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: $violet;
+
+  &:hover {
+    background-color: #c75af6;
+    cursor: pointer;
+  }
+}
+
+.btn-2 {
+  padding: 13px 0 11px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: $blue;
+
+  &:hover {
+    background-color: #7c91f9;
+    cursor: pointer;
+  }
+}
+
+.btn-3 {
+  display: inline-block;
+  padding: 13px 24px 11px 24px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: $dark-blue;
+
+  &:hover {
+    background-color: #656ea3;
+    cursor: pointer;
+  }
+}
+
+.btn-4 {
+  padding: 13px 0 11px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d73737;
+
+  &:hover {
+    background-color: #e98888;
+    cursor: pointer;
+  }
+}
+
+.main__btn {
+  width: 40px;
+  padding: 8px 9px;
+  border-radius: 10px;
+  background-color: $darked-grey;
+
+  &:hover {
+    background-color: #cfd7ff;
+    cursor: pointer;
+  }
+  &:active {
+    background-color: $blue;
+    cursor: pointer;
+  }
+}
+
+.btn {
+  @include jost(700, 13px, 19px, $dark-blue);
+  text-align: center;
+  text-decoration: none;
+
+  &:active {
+    color: $white;
+    &::before {
+      content: "";
+      display: block;
+      width: 8px;
+      height: 4px;
+      padding-top: 14px;
+      background-image: url(../../image/Path-white.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      transform: translate(5px, 0px);
+    }
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 4px;
+    padding-top: 14px;
+    background-image: url(../../image/Path\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: translate(5px, 0px);
+  }
+}
